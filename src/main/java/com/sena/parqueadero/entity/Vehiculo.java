@@ -1,56 +1,50 @@
 package com.sena.parqueadero.entity;
 
+//
 public class Vehiculo {
-    long id;
-    String placa;
-    String marca;
-    String modelo;
-    String propietario;
+    private long id;
+    private String placa;
+    private String marca;
+    private String modelo;
+    private String propietario;
 
-    // id
-    void setId(long idM){
-        id = idM;
-    }
-
-    long getId(){
+    public long getId() {
         return id;
     }
 
-    //placa
-    void setPlaca(String placaM){
-        placa = placaM;
-    }
-
-    String getPlaca(){
+    public String getPlaca() {
         return placa;
     }
 
-    //Marca
-    void setMarca(String marcaM){
-        marca = marcaM;
-    }
-
-    String getMarca(){
+    public String getMarca() {
         return marca;
     }
 
-    //Modelo
-    void setModelo(String modeloM){
-        modelo = modeloM;
-    }
-
-    String getModelo(){
+    public String getModelo() {
         return modelo;
     }
 
-    //Propietario
-    void setPropietario(String propietarioM){
-        propietario = propietarioM;
-    }
-
-    String getPropietario(){
+    public String getPropietario() {
         return propietario;
     }
 
-    
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public void setPropietario(String propietario) {
+        this.propietario = propietario;
+    }
 }
